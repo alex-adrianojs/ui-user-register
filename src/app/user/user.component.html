@@ -23,13 +23,14 @@
         <div class="container">
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
-              <thead class="thead-light text-center">
+              <thead class="table-secondary text-center">
                 <tr>
                   <th>Código</th>
     
                   <th class="w-50">Nome</th>
-    
                   <th class="w-25">E-mail</th>
+                  <th class="w-30">Editar</th>
+                  <th class="w-30">Excluir</th>
                 </tr>
               </thead>
     
@@ -40,9 +41,14 @@
                   <td>{{user.name}}</td>
     
                   <td>{{user.email}}</td>
+
+                  <td class="text-center"><button type="button" class="btn btn-success  btn-sm"><i class="bi bi-pencil-fill"></i></button></td>
+                  <td class="text-center"><button type="button" class="btn btn-danger  btn-sm"><i class="bi bi-basket2-fill"></i></button></td>
+
                 </tr>
               </tbody>
             </table>
+            <button type="button" class="btn btn-success">Pdf  <i class="bi bi-file-arrow-down"> </i></button>
           </div>
         </div>
       </section>
