@@ -1,1 +1,26 @@
-<h1>User Register</h1>
+<header>
+  <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+      <div class="container">
+          <a class="navbar-brand" href="javascript:;" th:href="@{/}">Usuarios</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+  </nav>
+</header>
+
+<div class="container geralConfig">
+    <div class="row">
+      <div class="col-xs-12"></div>
+      <h3>Cadastro de Usuarios</h3>
+      <hr>    
+      <app-user></app-user>
+    </div>
+    <hr>
+  
+  </div>
+  
+  <router-outlet></router-outlet>
